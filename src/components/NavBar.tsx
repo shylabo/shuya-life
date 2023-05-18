@@ -40,7 +40,7 @@ const CustomMobileLink = ({
   className = '',
   toggle,
 }: {
-  href: any
+  href: string
   title: string
   className?: string
   toggle: any
@@ -53,8 +53,8 @@ const CustomMobileLink = ({
   }
 
   return (
-    <button
-      ref={href}
+    <a
+      href={href}
       className={`${className} relative group text-light dark:text-dark my-2`}
       onClick={handleClick}
     >
@@ -70,7 +70,7 @@ const CustomMobileLink = ({
       >
         &nbsp;
       </span>
-    </button>
+    </a>
   )
 }
 
