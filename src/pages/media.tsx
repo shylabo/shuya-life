@@ -157,7 +157,7 @@ const media = () => {
               title="What do I do as a software engineer? (comprehensive 10 steps)"
               time="Youtube"
               summary="In this video, I'll show you what I actually do as a software engineer in a daily work to give a general idea for those who are considering going into tech."
-              link="https://youtu.be/nTzjmSesD-4"
+              link="https://youtu.be/JKrzVa3cr7Q"
             />
             <FeaturedArticle
               img={featured3}
