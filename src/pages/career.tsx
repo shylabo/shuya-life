@@ -5,7 +5,6 @@ import Layout from '@/components/Layout'
 import Skills from '@/components/Skills'
 import Head from 'next/head'
 import Link from 'next/link'
-import { DownLoadIcon } from '@/components/Icons'
 import Image from 'next/image'
 import React from 'react'
 import profilePic from '../../public/images/profile/developer-pic-2.png'
@@ -77,7 +76,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
                   "
               download={true}
             >
-              Resume <DownLoadIcon className={'w-6 ml-1'} />
+              ↓ DownLoad Resume
             </Link>
           </div>
         </Layout>

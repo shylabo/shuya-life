@@ -1,5 +1,4 @@
 import AnimatedText from '@/components/AnimatedText'
-import { MailIcon } from '@/components/Icons'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -58,7 +57,6 @@ export default function Home() {
                   hover:dark:border-light md:p-2 md:px-4 md:text-base
                   "
                 >
-                  <MailIcon className={'w-6 mr-2'} />
                   Contact
                 </Link>
               </div>
