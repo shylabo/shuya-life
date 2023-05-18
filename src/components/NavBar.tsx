@@ -54,7 +54,7 @@ const CustomMobileLink = ({
 
   return (
     <button
-      href={href}
+      ref={href}
       className={`${className} relative group text-light dark:text-dark my-2`}
       onClick={handleClick}
     >
@@ -75,7 +75,7 @@ const CustomMobileLink = ({
 }
 
 const NavBar = () => {
-  const [mode, setMode] = useThemeSwitcher()
+  const { mode, setMode } = useThemeSwitcher()
   const [isOpen, setIsOpen] = useState(false)
 
   const handleClick = () => {

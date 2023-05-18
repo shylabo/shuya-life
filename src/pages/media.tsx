@@ -3,7 +3,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useRef } from 'react'
+import React, { MouseEventHandler, useRef } from 'react'
 import { motion, useMotionValue } from 'framer-motion'
 import featured1 from '../../public/images/media/day-in-the-life-as-a-swe-in-tokyo.jpg'
 import featured2 from '../../public/images/media/what-I-do-as-a-swe.jpg'
@@ -15,18 +15,18 @@ import article3 from '../../public/images/media/how-chat-gpt-learn.png'
 
 const FramerImage = motion(Image)
 
-const MovingImg = ({ title, img, link }: { title: string; link: string }) => {
+const MovingImg = ({ title, img, link }: { title: string; img: string; link: string }) => {
   const x = useMotionValue(0)
   const y = useMotionValue(0)
   const imgRef = useRef(null)
 
-  function handleMouse(event: Event) {
+  function handleMouse(event) {
     imgRef.current.style.display = 'inline-block'
     x.set(event.pageX)
     y.set(-10)
   }
 
-  function handleMouseLeave(event: Event) {
+  function handleMouseLeave(event) {
     imgRef.current.style.display = 'none'
     x.set(0)
     y.set(0)
@@ -54,7 +54,7 @@ const Article = ({
   date,
   link,
 }: {
-  img: HTMLImageElement
+  img: any
   title: string
   date: string
   link: string
@@ -85,7 +85,7 @@ const FeaturedArticle = ({
   summary,
   link,
 }: {
-  img: HTMLImageElement
+  img: any
   title: string
   time: string
   summary: string
