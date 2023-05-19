@@ -190,7 +190,7 @@ const projects = () => {
                 type="Chat APP"
                 title="AI Chat Room Powered by OpenAI API"
                 img={aiChatRoom}
-                link="/404"
+                link="https://ai-chat-room-client.onrender.com/"
                 github="https://github.com/shylabo/ai-chat-room"
               />
             </div>
