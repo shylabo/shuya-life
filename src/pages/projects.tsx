@@ -172,7 +172,7 @@ const projects = () => {
                 summary="This is an application that allows you to generate an image based on your script using the OpenAI API. With this application, you can easily create custom images that accurately represent your ideas and concepts. The process is simple. You input your script into the application, and the OpenAI API generates an image based on your description. You can then preview and download the image, making it easy to incorporate into your projects or share with others.
                 "
                 img={dalle}
-                link="/404"
+                link="https://dalle-web-65vw.onrender.com/"
                 github="https://github.com/shylabo/dalle"
               />
             </div>
