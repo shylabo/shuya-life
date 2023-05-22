@@ -6,7 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import dalle from '../../public/images/projects/dalle.png'
-import syncfusionDashboard from '../../public/images/projects/syncfusion-dashboard.png'
+import travelAnywhere from '../../public/images/projects/travel-anywhere.png'
 import aiChatRoom from '../../public/images/projects/ai-chat-room.png'
 import { motion } from 'framer-motion'
 
@@ -168,21 +168,21 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="Image Generation App Powered by OpenAI API"
-                summary="This is an application that allows you to generate an image based on your script using the OpenAI API. With this application, you can easily create custom images that accurately represent your ideas and concepts. The process is simple. You input your script into the application, and the OpenAI API generates an image based on your description. You can then preview and download the image, making it easy to incorporate into your projects or share with others.
+                title="Full Stack Travel Booking App"
+                summary="This travel booking app offers an extensive range of destinations worldwide, allowing you to book numerous places across the globe. It provides convenient features such as third-party login integration, efficient search functionality, seamless reservation processes, and comprehensive property management capabilities. Additionally, the app boasts a modern and fully responsive design, making it visually appealing and user-friendly for an optimal booking experience. Developed as a full stack application using Next.js and React, it combines robust functionality with cutting-edge technology to deliver a top-notch travel booking platform.
                 "
-                img={dalle}
-                link="https://dalle-web-65vw.onrender.com/"
-                github="https://github.com/shylabo/dalle"
+                img={travelAnywhere}
+                link="https://travel-anywhere.vercel.app/"
+                github="https://github.com/shylabo/travel-anywhere"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Dashboard App"
-                title="Syncfusion dashboard"
-                img={syncfusionDashboard}
-                link="/404"
-                github="https://github.com/shylabo/syncfusion_dashboard"
+                type="Full stack project"
+                title="Image Generation App Powered by OpenAI API"
+                img={dalle}
+                link="https://dalle-web-65vw.onrender.com/"
+                github="https://github.com/shylabo/dalle"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
