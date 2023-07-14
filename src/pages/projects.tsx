@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import dalle from '../../public/images/projects/dalle.png'
+import cleanArchitectureApi from '../../public/images/projects/TypeScript-clean-architecture-api.jpg'
 import travelAnywhere from '../../public/images/projects/travel-anywhere.png'
 import aiChatRoom from '../../public/images/projects/ai-chat-room.png'
 import { motion } from 'framer-motion'
@@ -174,6 +175,15 @@ const projects = () => {
                 img={travelAnywhere}
                 link="https://travel-anywhere.vercel.app/"
                 github="https://github.com/shylabo/travel-anywhere"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Backend Api"
+                title="Clean Architecture API (TypeScript)"
+                img={cleanArchitectureApi}
+                link="https://github.com/shylabo/typescript-clean-architecture-api"
+                github="https://github.com/shylabo/typescript-clean-architecture-api"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
