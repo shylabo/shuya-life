@@ -24,21 +24,17 @@ const about = () => {
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
-                Career summary
-              </h2>
+              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">Career summary</h2>
               <p className="font-medium">
-                Full-stack software engineer with strong strategic planning and requirements
-                definition skills for product management, and a track record of delivering
-                high-value products in diverse development environments - from startups to
-                enterprises - including significant contributions to fundraising efforts for a
-                startup in Japan.
+                Frontend software engineer with strong strategic planning and requirements definition skills for product
+                management, and a track record of delivering high-value products in diverse development environments -
+                from startups to enterprises - including significant contributions to fundraising efforts for a startup.
               </p>
 
               <p className="my-4 font-medium">
-                In his over six year&apos;s career as a product manager and software engineer, Shuya
-                found his passion in creating products that help people through creating web apps
-                and working closely together with Product and Design experts.
+                In his over six year&apos;s career as a product manager and software engineer, Shuya found his passion
+                in creating products that help people through creating web apps and working closely together with
+                Product and Design experts.
               </p>
             </div>
 
