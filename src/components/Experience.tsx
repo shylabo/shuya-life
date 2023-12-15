@@ -59,7 +59,7 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Software Developer"
+            position="Full-stack Developer"
             company="LIFULL"
             companyLink="https://lifull.com/en/"
             time="April 2021 - March 2023"
@@ -85,7 +85,7 @@ const Experience = () => {
           />
 
           <Details
-            position="Product Manager, Freelance"
+            position="Full-stack Developer / Product Manager, Freelance"
             company="moja"
             companyLink="https://mojajp.com/"
             time="April 2020 - May 2022"
