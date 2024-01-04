@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import dalle from '../../public/images/projects/dalle.png'
+import foodely from '../../public/images/projects/foodely.jpg'
 import cleanArchitectureApi from '../../public/images/projects/TypeScript-clean-architecture-api.jpg'
 import notionCloneApp from '../../public/images/projects/notion-clone-app.png'
 import travelAnywhere from '../../public/images/projects/travel-anywhere.png'
@@ -155,6 +156,15 @@ const projects = () => {
                 img={travelAnywhere}
                 link="https://travel-anywhere.vercel.app/"
                 github="https://github.com/shylabo/travel-anywhere"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Full Stack (Next.js + Rails)"
+                title="Foodely (Office catering app)"
+                img={foodely}
+                link="https://foodely-web.vercel.app/"
+                github="https://github.com/shylabo/foodely-web"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
